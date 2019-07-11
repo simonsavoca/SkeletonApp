@@ -50,5 +50,20 @@
 <script src="<?= base_url('assets/AdminLTE-3.0.0-beta.1/dist/js/pages/dashboard.js'); ?>"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?= base_url('assets/AdminLTE-3.0.0-beta.1/dist/js/demo.js'); ?>"></script>
+<!-- DataTables -->
+<script src="<?= base_url('assets/AdminLTE-3.0.0-beta.1/plugins/datatables/jquery.dataTables.js'); ?>"></script>
+<script src="<?= base_url('assets/AdminLTE-3.0.0-beta.1/plugins/datatables/dataTables.bootstrap4.js'); ?>"></script>
+<script>
+  $(function () {
+    $('#list').DataTable({
+      "paging": true,
+      "lengthChange": true,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+    });
+  });
+</script>
 </body>
 </html>

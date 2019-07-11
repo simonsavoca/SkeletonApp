@@ -26,6 +26,8 @@
   <? echo link_tag(base_url('assets/AdminLTE-3.0.0-beta.1/plugins/summernote/summernote-bs4.css')); ?>
   <!-- Google Font: Source Sans Pro -->
   <? echo link_tag("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700") ?>
+  <!-- DataTables -->
+  <? echo link_tag(base_url('assets/AdminLTE-3.0.0-beta.1/plugins/datatables/dataTables.bootstrap4.css')); ?>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
